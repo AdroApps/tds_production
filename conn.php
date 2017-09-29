@@ -10,6 +10,8 @@ define ('DB_PASSWORD' , '');
 
 define ('DB_NAME' , 'tds');
 
+ $db = mysqli_init();
+  $db->real_connect(DB_HOST, DB_UNAME, DB_PASSWORD, DB_NAME);
 
 $conn = mysqli_connect(DB_HOST, DB_UNAME, DB_PASSWORD, DB_NAME);
 
