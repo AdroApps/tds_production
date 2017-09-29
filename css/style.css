@@ -92,3 +92,4 @@ table.dataTable thead .sorting_desc:after {
     margin-left: 4%;
     margin-top: 5%;
 }
+th{text-transform:uppercase!important;color:color: #273246!important;}
