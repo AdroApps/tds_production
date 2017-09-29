@@ -10,10 +10,7 @@ define ('DB_PASSWORD' , '');
 
 define ('DB_NAME' , 'tds');
 
- $conn = mysqli_init();
-  $conn->real_connect(DB_HOST, DB_UNAME, DB_PASSWORD, DB_NAME);
-
-//$conn = mysqli_connect(DB_HOST, DB_UNAME, DB_PASSWORD, DB_NAME);
+ $conn = mysqli_connect('us-cdbr-iron-east-05.cleardb.net', 'bdb069f3a03f14', '14099455', 'heroku_cc8454bcfb5c8fa');
 
 $_SESSION['LAST_ACTIVITY'] = time();
 /*if(empty($_SESSION['e'])){
