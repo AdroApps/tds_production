@@ -2,13 +2,13 @@
 session_start();
 
  ini_set('error_reporting', E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED); 
-define ('DB_HOST' , 'localhost');
+define ('DB_HOST' , 'us-cdbr-iron-east-05.cleardb.net');
 
-define ('DB_UNAME' , 'root');
+define ('DB_UNAME' , 'bdb069f3a03f14');
 
-define ('DB_PASSWORD' , '');
+define ('DB_PASSWORD' , '14099455');
 
-define ('DB_NAME' , 'tds');
+define ('DB_NAME' , 'heroku_cc8454bcfb5c8fa');
 
  $conn = mysqli_connect('us-cdbr-iron-east-05.cleardb.net', 'bdb069f3a03f14', '14099455', 'heroku_cc8454bcfb5c8fa');
 
