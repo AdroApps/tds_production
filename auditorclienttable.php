@@ -28,7 +28,7 @@ $data2 = mysqli_query($conn , $sql2);
 		<thead>
 			<tr>
 				
-				<th>Oraganization Name</th>
+				<th>Organization Name</th>
 				<th>Tan</th>
 				<th>Financial Year</th>
 				<th>Quarter</th>
