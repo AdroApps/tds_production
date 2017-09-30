@@ -13,7 +13,7 @@ function active($currect_page){
 <html>
 <head>
 <script>
-var url = "http://localhost/tdsgit/tdss/";
+var url = "https://easy-tds.herokuapp.com/";
 </script>
 <title>TDS MANAGEMENT SYSTEM</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
